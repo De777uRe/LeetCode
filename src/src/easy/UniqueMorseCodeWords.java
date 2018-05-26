@@ -1,4 +1,4 @@
-package easy;
+package src.easy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class UniqueMorseCodeWords {
-    public static final int ALPHABET_SIZE = 26;
     public static final String morseAlphabet[] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
     
     public int uniqueMorseRepresentations(String[] words) {
